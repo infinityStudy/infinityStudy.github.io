@@ -2,23 +2,22 @@
 title: Jekflix | A theme for Jekyll
 email: pydevrio@gmail.com
 description: blog for infinity study
-baseurl: "/jekflix-template" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://infinityStudy.gitgub.io" # the base hostname & protocol for your site
 google_analytics: "UA-XXXXXXXX-X"
 
 # User Settings
-username: Jekflix
-user_description: Some text about you.
-disqus_username: disqus_username
-
+username: infinityStudy
+user_description: ....user description
+disqus_username: unclepig_good
 # Social Media
 # Remove the item if you don't need it
-github_username: github_username
-facebook_username: facebook_username
-twitter_username: twitter_username
-instagram_username: instagram_username
-linkedin_username: linkedin_username
-medium_username: medium_username
+github_username: infinityStudy
+facebook_username: pydevrio
+twitter_username: pydevrio
+instagram_username: pydevrio
+linkedin_username: pydevrio
+medium_username: pydevrio
 
 # Build settings
 markdown: kramdown
