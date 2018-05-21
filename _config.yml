@@ -2,7 +2,7 @@
 title: welcome to visit Blog for Infinity Study
 email: pydevrio@gmail.com
 description: blog for infinity study
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/infinityStudy.github.io" # the subpath of your site, e.g. /blog
 url: "https://infinityStudy.gitgub.io/" # the base hostname & protocol for your site
 google_analytics: ""
 
