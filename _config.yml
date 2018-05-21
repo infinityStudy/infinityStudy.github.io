@@ -3,8 +3,8 @@ title: welcome to visit Blog for Infinity Study
 email: pydevrio@gmail.com
 description: blog for infinity study
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://infinityStudy.gitgub.io" # the base hostname & protocol for your site
-google_analytics: "UA-XXXXXXXX-X"
+url: "https://infinityStudy.gitgub.io/" # the base hostname & protocol for your site
+google_analytics: ""
 
 # User Settings
 username: infinityStudy
