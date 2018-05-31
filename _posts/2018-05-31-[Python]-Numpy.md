@@ -2,7 +2,7 @@
 layout: post
 title: "[Python] Numpy 사용법"
 description: Numpy 사용법 정리
-image: 'http://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_760/v1504807239/morpheus_xdzgg1.jpg'
+image: 'https://res.cloudinary.com/practicaldev/image/fetch/s--cjZ3iPpo--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.imgur.com/mKy85Kr.png'
 category: 'blog'
 twitter_text: NUMPY Using
 introduction: ,,,
