@@ -1,36 +1,36 @@
 ---
-layout: post
+layout: 'post'
 title: "[Python] Numpy 사용법"
-description: Numpy 사용법 정리
+description: 'Numpy 사용법 정리'
 image: 'https://i.imgur.com/mKy85Kr.png'
 category: 'blog'
-twitter_text: NUMPY Using
-introduction: ,,
+twitter_text: .
+introduction: 'numpy에 대한 기본적인 내용을 정리하였음.'
 ---
 
 # **Numpy**
 1. **ndarray(다차원배열)**
     **1.1 생성**
 
-    * numpy.random.randn(2,3) : 2행 3열짜리 랜덤 숫자 추출
-    * numpy.arange(1:5) : 1부터 5까지의 1차원 배열 생성
-    * numpy.array(data1) : data1을 array로 변환
+       * numpy.random.randn(2,3) : 2행 3열짜리 랜덤 숫자 추출
+       * numpy.arange(1:5) : 1부터 5까지의 1차원 배열 생성
+       * numpy.array(data1) : data1을 array로 변환
 
     **1.2 변환**
 
-    * np.reshape(arr,[2,2]) : 2행2열의 2차원 배열로 변환
-    * np.transpose(arr) : 2행 3열을 3행 2열로 변환
+       * np.reshape(arr,[2,2]) : 2행2열의 2차원 배열로 변환
+       * np.transpose(arr) : 2행 3열을 3행 2열로 변환
 
     **1.3 slicing**
 
-    * arr = np.arange(5); 
-    * arr = np.arange(1:10) : 1부터 9까지의 1차원 배열
-      <결과> [1,2,3,4,5,6,7,8,9]
-    * arr[5:8] : 5번째부터 7번째까지
-    * arr[5:8, 1:4] # 2차원인 경우 row가 5~7, column이 1:3까지 선택
-    * arr\[5][3] : 2차원인 경우 row 5번째, column 3번째인 값 선택
-    * arr[0::2, 1:3] : row 0부터 2칸씩 점프하고, cols가 1~2까지인 2차원 배열 선택
-    * 
+       * arr = np.arange(5); 
+       * arr = np.arange(1:10) : 1부터 9까지의 1차원 배열
+         <결과> [1,2,3,4,5,6,7,8,9]
+       * arr[5:8] : 5번째부터 7번째까지
+       * arr[5:8, 1:4] # 2차원인 경우 row가 5~7, column이 1:3까지 선택
+       * arr\[5][3] : 2차원인 경우 row 5번째, column 3번째인 값 선택
+       * arr[0::2, 1:3] : row 0부터 2칸씩 점프하고, cols가 1~2까지인 2차원 배열 선택
+       * 
 
     1.4 data 조회 및 비교
         * data[names == 'bob'] # 인덱스 반환
@@ -39,6 +39,7 @@ introduction: ,,
     1.5 배열 전치와 축 바꾸기
         o **arr=np.arange(15).reshape((3,5))** : 0부터 14까지 순서대로 하는데, 3행 5열로 변환 배치한다.
         o 결과 arr을 그대로 90도 전환으로 5행3열로 만들려면, arr.T 를 한다. T는 transpose로 축을 바꾼다.
+     
 |  함수명   | 설명                                                         | 사용법                            |
 | :-------: | :----------------------------------------------------------- | :-------------------------------- |
 |   array   | 입력데이터를 numpy array로 변환<br>입력데이터 : list, dict, tuple,등 | numpy.array(data,dtype='float32') |
@@ -51,6 +52,7 @@ introduction: ,,
 2. 계산 함수
 
     2.1 단항 함수 : data
+    
 
 |                   함수명                   | 설명                                                   | 사용법                  |
 | :----------------------------------------: | :----------------------------------------------------- | :---------------------- |
